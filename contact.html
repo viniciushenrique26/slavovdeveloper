@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Contato</title> 
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="cabecalho"> 
+    <nav class="cabecalho_nav">
+        <a class="cabecalho_link" href="index.html">Home</a> 
+        <a class="cabecalho_link" href="about.html">Sobre mim</a> 
+        <a class="cabecalho_link" href="contact.html">Contato</a>
+    </nav>
+  </header>
+  <main> 
+    <section class="apresentacao_contato">    
+      <h1 class="contato_titulo">Entre em contato comigo</h1>
+      <form class="form_contato" action="https://api.staticforms.xyz/submit" method="POST">
+        <label></label> 
+        <input type="text" name="name" class="input_padrao" required placeholder="Nome" autocomplete="off"> 
+        <label></label> 
+        <input type="email" name="email" class="input_padrao" required placeholder="Email" autocomplete="off">     
+        <label></label> 
+        <textarea name="message" cols="30" rows="10" class="input_padrao" required placeholder="Mensagem"></textarea>  
+        <button type="submit" class="enviar">Enviar mensagem   &#x1F4E9</button>
+
+        <input type="hidden" name="accessKey" value="b8320854-0596-404f-88ed-f5392b9b6755"> 
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/obrigado.html"> 
+      </form>
+    </section> 
+    <img class="logo-contact" src="./assets/logo-2.png" alt="imagem da logo, malabarista"> 
+  </main>
+  <footer class="rodape"> 
+    <p>Desenvolvido por Slavov</p>
+  </footer>
+</body>
+</html>
